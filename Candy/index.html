@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="style.css">
+  <title>candy</title>
+</head>
+<body>
+  <section>
+    <img src="./img/candy9.png" alt="candy4" class="candy9">
+    <div class="slider">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy6.png" alt="candy6"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy7.png" alt="candy6"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy8.png" alt="candy6"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy1.png" alt="candy1"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy2.png" alt="candy2"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy3.png" alt="candy3"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy4.png" alt="candy4"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/candy5.png" alt="candy5"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+  </script>
+</body>
+</html>
