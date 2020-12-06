@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +14,7 @@ section {
   background: linear-gradient(180deg, #fab1cf 0%, #f570a0 28%, #bd0135 100%);
   overflow: hidden;
 
+  /* bottom 텍스트 */
   &::after {
     content: '2020. 12. 04';
     position: absolute;
@@ -26,6 +26,7 @@ section {
     color: #d9386a;
   }
 
+  /* 타이틀 텍스트 */
   &::before {
     content: '🎁Candy';
     position: absolute;
@@ -42,12 +43,14 @@ section {
     color: transparent;
   }
   
+  /* top 캔디 액체 */
   .candy9 {
     position: absolute;
     width: 100%;
     height: 50%;
     top: 0;
   }
+
   .slider {
     position: relative;
     width: 100%;
@@ -78,7 +81,6 @@ section {
       padding-top: 50px;
       padding-bottom: 50px;
     }
-
     .swiper-slide {
       background-position: center;
       background-size: cover;
@@ -88,6 +90,7 @@ section {
   }
 }
 
+/* swiper css 수정 */
 .swiper-container-3d {
   .swiper-slide-shadow-left {background: none;}
   .swiper-slide-shadow-right {background: none;}

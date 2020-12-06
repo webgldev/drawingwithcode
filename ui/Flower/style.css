@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 a {
   text-decoration: none;
@@ -41,6 +42,10 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /* 대리석 6각형 */
+  /* 철사 4각형 */
+  /* 타이틀 */
+  /* 꽃 */
 }
 
 section img {
@@ -68,6 +73,14 @@ section .square {
   background-repeat: no-repeat;
 }
 
+section .flower-7 {
+  z-index: -1;
+  top: -60px;
+  height: 350px;
+  width: 110%;
+  left: -25px;
+}
+
 section h2 {
   z-index: 2;
   color: #e2d4d7;
@@ -84,14 +97,6 @@ section p {
   left: 80px;
   position: absolute;
   font-size: 24px;
-}
-
-section .flower-7 {
-  z-index: -1;
-  top: -60px;
-  height: 350px;
-  width: 110%;
-  left: -25px;
 }
 
 section .flower-1 {

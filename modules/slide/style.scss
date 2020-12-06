@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .slider {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+
+    .swiper-container {
+      width: 100%;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 200px;
+      height: 400px;
+      margin: 0 10px;
+    }
+  }
+
+  // slide color
+  .board {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    margin: 0 16px;
+  }
+  @function calcPercent($number) {
+    $percent: "%";
+    @return $number * 5;
+  }
+  @for $i from 1 through 20 {
+    .board-#{$i} {
+       background-color: lighten($color: #ffa91a, $amount: calcPercent($i));
+    }
+  }
+
+}
+
+/* swiper css 수정 */
+.swiper-container-3d .swiper-slide-shadow-left {background: none;}
+.swiper-container-3d .swiper-slide-shadow-right {background: none;}
+
+/* prev, next 버튼 */
+.swiper-button-prev, .swiper-button-next {color: #FF9800;}
+.swiper-button-prev {left: 40px; background-image: url(./img/prevbtn.png);}
+.swiper-button-next {right: 40px; background-image: url(./img/nextbtn.png);}

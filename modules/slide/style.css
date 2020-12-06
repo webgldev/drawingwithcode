@@ -1,0 +1,156 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+section .slider {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+}
+
+section .slider .swiper-container {
+  width: 100%;
+}
+
+section .slider .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 400px;
+  margin: 0 10px;
+}
+
+section .board {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  margin: 0 16px;
+}
+
+section .board-1 {
+  background-color: #ffb334;
+}
+
+section .board-2 {
+  background-color: #ffbc4d;
+}
+
+section .board-3 {
+  background-color: #ffc667;
+}
+
+section .board-4 {
+  background-color: #ffcf80;
+}
+
+section .board-5 {
+  background-color: #ffd99a;
+}
+
+section .board-6 {
+  background-color: #ffe2b3;
+}
+
+section .board-7 {
+  background-color: #ffeccd;
+}
+
+section .board-8 {
+  background-color: #fff6e6;
+}
+
+section .board-9 {
+  background-color: white;
+}
+
+section .board-10 {
+  background-color: white;
+}
+
+section .board-11 {
+  background-color: white;
+}
+
+section .board-12 {
+  background-color: white;
+}
+
+section .board-13 {
+  background-color: white;
+}
+
+section .board-14 {
+  background-color: white;
+}
+
+section .board-15 {
+  background-color: white;
+}
+
+section .board-16 {
+  background-color: white;
+}
+
+section .board-17 {
+  background-color: white;
+}
+
+section .board-18 {
+  background-color: white;
+}
+
+section .board-19 {
+  background-color: white;
+}
+
+section .board-20 {
+  background-color: white;
+}
+
+/* swiper css 수정 */
+.swiper-container-3d .swiper-slide-shadow-left {
+  background: none;
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+  background: none;
+}
+
+/* prev, next 버튼 */
+.swiper-button-prev, .swiper-button-next {
+  color: #FF9800;
+}
+
+.swiper-button-prev {
+  left: 40px;
+  background-image: url(./img/prevbtn.png);
+}
+
+.swiper-button-next {
+  right: 40px;
+  background-image: url(./img/nextbtn.png);
+}
+/*# sourceMappingURL=style.css.map */

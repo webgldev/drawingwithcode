@@ -24,6 +24,9 @@ section {
   background: -webkit-gradient(linear, left top, left bottom, from(#fab1cf), color-stop(28%, #f570a0), to(#bd0135));
   background: linear-gradient(180deg, #fab1cf 0%, #f570a0 28%, #bd0135 100%);
   overflow: hidden;
+  /* bottom 텍스트 */
+  /* 타이틀 텍스트 */
+  /* top 캔디 액체 */
 }
 
 section::after {
@@ -106,6 +109,7 @@ section .slider .swiper-slide {
   height: 460px;
 }
 
+/* swiper css 수정 */
 .swiper-container-3d .swiper-slide-shadow-left {
   background: none;
 }

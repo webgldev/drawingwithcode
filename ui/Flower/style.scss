@@ -28,6 +28,7 @@ section {
     object-fit: contain;
   }
 
+  /* 대리석 6각형 */
   .square {
     background-image: url("./img/flower/0.png");
     position: absolute; 
@@ -42,10 +43,15 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
   }
-  h2 {z-index: 2; color: #e2d4d7; top: 70px; left: 80px; position: absolute; font-size: 40px;}
-  p {z-index: 2; color: #e2d4d7; top: 125px; left: 80px; position: absolute; font-size: 24px;}
+  
+  /* 철사 4각형 */
   .flower-7 {z-index: -1; top: -60px; height: 350px; width: 110%; left: -25px;}
 
+  /* 타이틀 */
+  h2 {z-index: 2; color: #e2d4d7; top: 70px; left: 80px; position: absolute; font-size: 40px;}
+  p {z-index: 2; color: #e2d4d7; top: 125px; left: 80px; position: absolute; font-size: 24px;}
+
+  /* 꽃 */
   .flower-1 {z-index: 2; top: -80px; left: -90px; height: 250px;}
   .flower-2 {z-index: 2; top: 140px; left: -70px;}
   .flower-3 {z-index: -2; top: 20px; left: -170px; height: 350px;}
