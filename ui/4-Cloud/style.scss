@@ -1,0 +1,109 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+
+  @media screen and (max-width: 768px) {
+    text-align: left;
+  }
+}
+
+// 상단 타이틀 및 애니메이션
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  height: 70vh;
+
+  // 1. 백그라운드 이미지 적용하지 않을 시 컬러로 적용
+  // background: #ff9800;
+
+  // 2. 백그라운드 이미지 적용
+  background: url(./img/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+
+  #text {
+    position: relative;
+    font-size: 4rem;
+    color: #9e907c;
+    z-index: 1;
+    animation: textani calc(50s * var(--i)) cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
+  }
+
+  @keyframes textani {
+    0% {opacity: 0.5; transform: scale(1);}
+    5%, 100% {opacity: 1;}
+  }
+  
+  .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+
+    @media screen and (max-width: 768px) {
+      left: -300px;
+      width: 200%;
+    }
+    img {
+      position: absolute;
+      bottom: 0;
+      max-width: 100%;
+      animation: animate calc(3s * var(--i)) linear infinite;
+    }
+    .cloud {z-index: 2;}
+  }
+}
+
+@keyframes animate {
+  0% {opacity: 0; transform: scale(2);}
+  25%, 75% {opacity: 1;}
+  100% {opacity: 0; transform: scale(3);}
+}
+
+// 컨텐츠
+section {
+  position: relative;
+  padding: 75px 100px;
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    padding: 50px 15px;
+  }
+
+  h2 {
+    position: relative;
+    font-style: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  &>p {color: #ccc;}
+
+  .contents {
+    display: flex;
+    margin-top: 10px;
+    width: 800px;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    &>p {color: #888;}
+
+    &>img {
+      width: 800px;
+      border-radius: 20px;
+      margin: 40px 0;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+}
