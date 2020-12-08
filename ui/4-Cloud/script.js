@@ -7,8 +7,9 @@
 
 
 // 2-스크롤 내렸다가 올리면 애니메이션이 다시 실행
-let text = document.getElementById("text");
 
+// 2-1 forEach 리플로우, 리페인트 이벤트 발생
+// let text = document.getElementById("text");
 // let images = document.querySelectorAll(".clouds > img");
 
 // function imageAnimate(scrollY) {
@@ -26,6 +27,8 @@ let text = document.getElementById("text");
 //   })
 // }
 
+// 2-2 이미지를 감싸는 div에 애니메이션 적용
+let text = document.getElementById("text");
 let imageWrapper = document.querySelector(".clouds");
 
 function imageAnimate(scrollY) {
