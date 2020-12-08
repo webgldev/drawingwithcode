@@ -52,6 +52,16 @@ title {display: none;}
       width: 200%;
     }
 
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 200px;
+      z-index: 1000;
+      background: linear-gradient(transparent, #fff);
+    }
+    
     img {
       position: absolute;
       bottom: 0;

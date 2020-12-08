@@ -91,6 +91,17 @@ title {
   }
 }
 
+.top .clouds::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 1000;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fff));
+  background: linear-gradient(transparent, #fff);
+}
+
 .top .clouds img {
   position: absolute;
   bottom: 0;
