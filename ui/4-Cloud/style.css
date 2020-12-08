@@ -22,6 +22,10 @@
   }
 }
 
+title {
+  display: none;
+}
+
 .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,6 +99,12 @@
           animation: animate calc(3s * var(--i)) linear infinite;
 }
 
+.top .clouds.pause img {
+  -webkit-animation: none;
+          animation: none;
+  opacity: 0;
+}
+
 .top .clouds .cloud {
   z-index: 2;
 }
@@ -134,7 +144,7 @@
 section {
   position: relative;
   padding: 75px 100px;
-  height: auto;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
 }

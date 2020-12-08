@@ -1,11 +1,12 @@
 * {
   margin: 0; padding: 0; box-sizing: border-box;
-  display: flex; flex-direction: column; align-items: center; text-align: center;
+    display: flex; flex-direction: column; align-items: center; text-align: center;
 
-  @media screen and (max-width: 768px) {
-    text-align: left;
-  }
+    @media screen and (max-width: 768px) {
+      text-align: left;
+    }
 }
+title {display: none;}
 
 // 상단 타이틀 및 애니메이션
 .top {
@@ -50,12 +51,21 @@
       left: -300px;
       width: 200%;
     }
+
     img {
       position: absolute;
       bottom: 0;
       max-width: 100%;
       animation: animate calc(3s * var(--i)) linear infinite;
     }
+
+    &.pause {
+      img {
+        animation: none;
+        opacity: 0;
+      }
+    }
+
     .cloud {z-index: 2;}
   }
 }
@@ -70,7 +80,7 @@
 section {
   position: relative;
   padding: 75px 100px;
-  height: auto;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
 
