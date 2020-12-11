@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+body {
+  font-family: 'Playfair Display SC', serif;
+  background: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body section .color {
+  text-align: center;
+}
+
+body section .color .colorbox {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 2px;
+}
+
+body section .color .illuminating {
+  border-bottom: 2px solid #f4de4d;
+}
+
+body section .color .ultimate-gray {
+  border-bottom: 2px solid #929498;
+}
+
+body section .color input[type="radio"] {
+  visibility: hidden;
+  display: none;
+}
+
+body section .color #il-radio:checked ~ .illuminating {
+  color: #fff;
+  border-bottom: 2px solid #f4de4d;
+}
+
+body section .color #gray-radio:checked ~ .ultimate-gray {
+  color: #fff;
+  border-bottom: 2px solid #929498;
+}
+
+body section .color #il-radio:checked ~ .color-title span {
+  -webkit-animation: illuminating 5s ease-in-out infinite;
+          animation: illuminating 5s ease-in-out infinite;
+}
+
+body section .color #gray-radio:checked ~ .color-title span {
+  -webkit-animation: ultimateGray 5s ease-in-out infinite;
+          animation: ultimateGray 5s ease-in-out infinite;
+}
+
+body section h2 {
+  color: #505050;
+  vertical-align: baseline;
+  letter-spacing: -10px;
+  text-align: center;
+  font-size: 8rem;
+  margin: 20px 0;
+}
+
+body section h2 > span {
+  -webkit-animation: illuminating 5s ease-in-out infinite;
+          animation: illuminating 5s ease-in-out infinite;
+}
+
+body section h2 > span:nth-child(-n+5) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+body section h2 > span:nth-child(n+5):nth-child(-n+13) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+body section h2 > span:nth-child(n+14):nth-child(-n+18) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes illuminating {
+  0%, 100% {
+    color: #808080;
+    text-shadow: none;
+  }
+  10%, 90% {
+    color: #fff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f4de4d, 0 0 30px #f4de4d, 0 0 40px #f4de4d, 0 0 55px #f4de4d, 0 0 75px #f4de4d, 2px 2px 2px rgba(142, 139, 116, 0), 2px 2px 2px;
+  }
+}
+
+@keyframes illuminating {
+  0%, 100% {
+    color: #808080;
+    text-shadow: none;
+  }
+  10%, 90% {
+    color: #fff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f4de4d, 0 0 30px #f4de4d, 0 0 40px #f4de4d, 0 0 55px #f4de4d, 0 0 75px #f4de4d, 2px 2px 2px rgba(142, 139, 116, 0), 2px 2px 2px;
+  }
+}
+
+@-webkit-keyframes ultimateGray {
+  0%, 100% {
+    color: #808080;
+    text-shadow: none;
+  }
+  10%, 90% {
+    color: #fff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #929498, 0 0 30px #929498, 0 0 40px #929498, 0 0 55px #929498, 0 0 75px #929498, 2px 2px 2px rgba(142, 139, 116, 0), 2px 2px 2px;
+  }
+}
+
+@keyframes ultimateGray {
+  0%, 100% {
+    color: #808080;
+    text-shadow: none;
+  }
+  10%, 90% {
+    color: #fff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #929498, 0 0 30px #929498, 0 0 40px #929498, 0 0 55px #929498, 0 0 75px #929498, 2px 2px 2px rgba(142, 139, 116, 0), 2px 2px 2px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

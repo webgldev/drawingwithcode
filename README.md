@@ -23,7 +23,11 @@
 
 ### [❄️ Snow](https://github.com/gr-p/css/tree/main/6-Snow)
 
-![2020-12-09-23_30_21](https://user-images.githubusercontent.com/54713067/101642686-9f69e000-3a76-11eb-90ef-e988487e4d56.gif)
+![2020-12-11-17_19_46](https://user-images.githubusercontent.com/54713067/101880007-8fb4dd80-3bd5-11eb-9a6c-9cfaa44564c5.gif)
+
+### [🎨 Pantone](https://github.com/gr-p/css/tree/main/7-Pantone)
+
+![2020-12-11-17_21_25](https://user-images.githubusercontent.com/54713067/101880010-93486480-3bd5-11eb-85ac-64af2d89d543.gif)
 
 <br/>
 <br/>
