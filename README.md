@@ -39,7 +39,7 @@
 
 ### [✉️ Envelope](https://github.com/gr-p/css/tree/main/ui/10-Envelope)
 
-![2020-12-15](https://github.com/gr-p/css/tree/main/ui/10-Envelope/img/2020-12-15-04_53_21.gif)
+![2020-12-15](https://github.com/gr-p/css/tree/main/ui/10-Envelope/img/2020-12-15-05_16_47.gif)
 
 <br/>
 <br/>
