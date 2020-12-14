@@ -39,7 +39,9 @@
 
 ### [✉️ Envelope](https://github.com/gr-p/css/tree/main/ui/10-Envelope)
 
-![2020-12-15](https://github.com/gr-p/css/tree/main/ui/10-Envelope/img/2020-12-15-05_16_47.gif)
+[Envelope 전체 미리보기](https://github.com/gr-p/interaction/blob/main/ui/10-Envelope/img/2020-12-15-05_16_47.gif)
+
+![2020-12-15-05_24_25](https://user-images.githubusercontent.com/54713067/102131686-ecdeb680-3e95-11eb-9084-1a70f6e9a77a.gif)
 
 <br/>
 <br/>
