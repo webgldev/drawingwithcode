@@ -18,6 +18,7 @@ function getRandom(num) {
   return indexArr;
 }
 
+// IIFE
 (( {selector = "body", count = 20, delay = -0.5, vcolor = "#fff", vblur = 8}) => {
   let vapourDelay = delay;
 
