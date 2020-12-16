@@ -16,10 +16,10 @@ for (let i = 0; i < count; i++) {
 
 /*
 - makeLight가 한번 종료되면 다시 실행이 안되어서
-  반복해서 실행시키려 timer 함수를 생성하여 setInterval 적용
-- 함수가 실행 시 설정해준 시간 '초' 뒤에
+  반복해서 실행시키려 timer 변수를 만들고 setInterval 적용
+- 변수가 실행 시 설정해준 시간 '초' 뒤에
   count 보다 미만인 갯수에 makeLight 함수가 한번 실행되고
-  setInterval로 반복해서 실행
+  setInterval로 주어진 시간(초)동안 반복해서 실행
 */
 const timer = setInterval(() => {
   for (let i = 0; i < count; i++) {
@@ -44,15 +44,15 @@ function makeLight(i) {
   // 함수 실행 시 span tag 생성
   let span = document.createElement("span");
   // 조건문으로 blurCount에 넣어준 숫자보다 i가 작으면
-  // span tag에 blur class 추가
+  // span tag에 blur라는 class명을 추가해줌
   if (i < blurCount) {
     span.classList.add("blur");
   }
-  // stage 클래스 하위에 span 태그 연결
+  // stage 클래스 하위에 생성한 span 태그를 연결
   stage.appendChild(span);
 
   // [2] 불빛 애니메이션 설정
-  // 불빛에 애니메이션 주기 전에 기본 셋팅 설정
+  // 불빛에 애니메이션을 주기 전에 기본 셋팅을 설정해줌
   gsap.set(span, {
     left: gsap.utils.random(0, stage.offsetWidth),  // 가로 위치 랜덤
     top: gsap.utils.random(0, stage.offsetHeight),  // 세로 위치 랜덤
