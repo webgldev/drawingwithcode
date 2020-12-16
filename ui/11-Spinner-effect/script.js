@@ -52,7 +52,7 @@ const onTextHover = () => {
   // (o로 받아낸 span 태그를 활용해서 true/false를 판단하지 않고 식만 표현)
 
   tl.to(targetChars, {
-    duration: 0.3,       // 속도
+    duration: 0.3,       // 지속시간
     ease: Quad.easeIn,   // 애니메이션 종류
     y: '-100%',          // span 태그에 담긴 글자들이 위쪽으로 날라가는 양 (y축 방향으로 - 라면 그만큼 원본 태그로부터 위 지점을 가리킴)
     opacity: 0,          // 위로 올라가면서 투명도 100% 로 사라지게 됨
