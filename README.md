@@ -39,15 +39,9 @@
 
 ### [✉️ Envelope](https://github.com/gr-p/css/tree/main/ui/10-Envelope)
 
-[Envelope 전체 미리보기](https://github.com/gr-p/interaction/blob/main/ui/10-Envelope/img/2020-12-15-05_16_47.gif)
+[Envelope 전체 미리보기](https://www.youtube.com/embed/BDF0Gf-tG6o)
 
 ![2020-12-15-05_24_25](https://user-images.githubusercontent.com/54713067/102131686-ecdeb680-3e95-11eb-9084-1a70f6e9a77a.gif)
-
-
-<iframe src="https://player.vimeo.com/video/491500465" width="640" height="423" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BDF0Gf-tG6o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ### [🔥 Hover & Spinner effect](https://github.com/gr-p/css/tree/main/ui/11-Spinner-effect)
 
