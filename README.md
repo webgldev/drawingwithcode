@@ -49,7 +49,8 @@
 
 ### [✨ Glow light](https://github.com/gr-p/interaction/tree/main/ui/12-Glow-light)
 
-![2020-12-17-05_39_46](https://user-images.githubusercontent.com/54713067/102404015-74f5c500-402a-11eb-9eb4-283e8c184a38.gif)
+![2020-12-18-00_59_29](https://user-images.githubusercontent.com/54713067/102511819-9909e280-40cc-11eb-8848-0c5f59bf7479.gif)
+
 
 <br/>
 <br/>
