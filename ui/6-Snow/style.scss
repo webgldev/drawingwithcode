@@ -19,7 +19,7 @@ body {margin: 0;}
 .wrapper {
   width: 100%;
   height: 100vh;
-  background: #baccde;
+  background: #e6edf5;
   overflow: hidden;
 
   .winter1 {
@@ -74,8 +74,8 @@ body {margin: 0;}
   }
 
   .layer1 {
-    width: 1.5rem;
-    height: 1.5rem;
+    width:  1rem;
+    height: 1rem;
     filter: blur(1.5px);
     box-shadow: #{$s1};
     animation-duration: 6s;
@@ -84,8 +84,8 @@ body {margin: 0;}
     }
   }
   .layer2 {
-    width: 1.2rem;
-    height: 1.2rem;
+    width:  0.8rem;
+    height: 0.8rem;
     filter: blur(3px);
     box-shadow: #{$s2};
     animation-duration: 8s;
@@ -94,8 +94,8 @@ body {margin: 0;}
     }
   }
   .layer3 {
-    width: 0.8rem;
-    height: 0.8rem;
+    width:  0.5rem;
+    height: 0.5rem;
     filter: blur(6px);
     box-shadow: #{$s3};
     animation-duration: 10s;
