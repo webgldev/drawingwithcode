@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: url("./img/bg.jpg");
+  overflow: hidden;
+}
+
+.title {
+  width: 100%;
+  height: 35vh;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.title p {
+  color: #adadad;
+}
+
+.title .leaf {
+  width: 70px;
+  position: absolute;
+  left: 400px;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .title .leaf {
+    display: none;
+  }
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+section .slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 10;
+}
+
+section .slider img {
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  width: 626px;
+  height: 626px;
+}
+
+@media screen and (max-width: 768px) {
+  section .slider img {
+    right: 0px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+section .slider .swiper-container {
+  width: 100%;
+  margin-bottom: -100px;
+}
+
+section .slider .swiper-container .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .slider .swiper-container .swiper-slide > div {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .slider .swiper-container .swiper-slide > div p {
+  font-size: 0.875rem;
+}
+
+section .slider .swiper-container .swiper-slide > div p:nth-of-type(1) {
+  color: #9ba91f;
+  height: auto;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #898989;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .slider .swiper-container .swiper-slide > div .kcal {
+  color: #898989;
+  margin-top: 10px;
+}
+
+section .slider .swiper-container .swiper-slide a {
+  width: 100%;
+  height: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  section .slider .swiper-container .swiper-slide a {
+    height: 50px;
+  }
+}
+
+section .slider .swiper-slide-active {
+  -webkit-transform: scale(1.5) !important;
+          transform: scale(1.5) !important;
+}
+
+/* swiper css 수정 */
+.swiper-container-3d .swiper-slide-shadow-left {
+  background: none;
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+  background: none;
+}
+/*# sourceMappingURL=style.css.map */

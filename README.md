@@ -9,9 +9,12 @@
 
 ![2020-12-04-00_02_39](https://user-images.githubusercontent.com/54713067/101046832-ac915580-35c4-11eb-8b68-aa729c072b82.gif)
 
-### [🍬 Candy](https://github.com/gr-p/interaction/tree/main/ui/3-Candy)
+### [🥗 Salad](https://github.com/gr-p/interaction/tree/main/ui/3-1-Salad)
 
-![2020-12-04-23_54_19](https://user-images.githubusercontent.com/54713067/101178368-44a64200-368c-11eb-87cd-0d22c3a7327a.gif)
+![2020-12-19-02_57_32](https://user-images.githubusercontent.com/54713067/102645584-09d0fd80-41a6-11eb-9fdd-c81d3ce9277f.gif)
+
+<!-- ### [🍬 Candy](https://github.com/gr-p/interaction/tree/main/ui/3-Candy)
+![2020-12-04-23_54_19](https://user-images.githubusercontent.com/54713067/101178368-44a64200-368c-11eb-87cd-0d22c3a7327a.gif) -->
 
 ### [☁️ Cloud](https://github.com/gr-p/interaction/tree/main/ui/4-Cloud)
 
