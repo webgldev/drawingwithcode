@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
 * {
   margin: 0; padding: 0; box-sizing: border-box;
     display: flex; flex-direction: column; align-items: center; text-align: center;
@@ -5,6 +7,10 @@
     @media screen and (max-width: 768px) {
       text-align: left;
     }
+}
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
 }
 title {display: none;}
 
@@ -15,7 +21,7 @@ title {display: none;}
   align-items: center;
 
   position: relative;
-  height: 70vh;
+  height: 100vh;
 
   // 1. 백그라운드 이미지 적용하지 않을 시 컬러로 적용
   // background: #ff9800;
@@ -23,12 +29,12 @@ title {display: none;}
   // 2. 백그라운드 이미지 적용
   background: url(./img/bg1.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 
   #text {
     position: relative;
     font-size: 4rem;
-    color: #9e907c;
+    color: #9c9c9c;
     z-index: 1;
     animation: textani calc(50s * var(--i)) cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
   }
@@ -66,7 +72,7 @@ title {display: none;}
       position: absolute;
       bottom: 0;
       max-width: 100%;
-      animation: animate calc(3s * var(--i)) linear infinite;
+      animation: animate calc(2s * var(--i)) linear infinite;
     }
 
     &.pause {
@@ -90,7 +96,6 @@ title {display: none;}
 section {
   position: relative;
   padding: 75px 100px;
-  height: 100vh;
   width: 100vw;
   overflow: hidden;
 

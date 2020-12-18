@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,10 @@
   }
 }
 
+body {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
 title {
   display: none;
 }
@@ -37,16 +42,16 @@ title {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  height: 70vh;
+  height: 100vh;
   background: url(./img/bg1.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .top #text {
   position: relative;
   font-size: 4rem;
-  color: #9e907c;
+  color: #9c9c9c;
   z-index: 1;
   -webkit-animation: textani calc(50s * var(--i)) cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
           animation: textani calc(50s * var(--i)) cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
@@ -106,8 +111,8 @@ title {
   position: absolute;
   bottom: 0;
   max-width: 100%;
-  -webkit-animation: animate calc(3s * var(--i)) linear infinite;
-          animation: animate calc(3s * var(--i)) linear infinite;
+  -webkit-animation: animate calc(2s * var(--i)) linear infinite;
+          animation: animate calc(2s * var(--i)) linear infinite;
 }
 
 .top .clouds.pause img {
@@ -155,7 +160,6 @@ title {
 section {
   position: relative;
   padding: 75px 100px;
-  height: 100vh;
   width: 100vw;
   overflow: hidden;
 }
