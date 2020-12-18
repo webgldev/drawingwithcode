@@ -18,7 +18,9 @@
 
 ### [☁️ Cloud](https://github.com/gr-p/interaction/tree/main/ui/4-Cloud)
 
-![2020-12-08 16_38_28](https://user-images.githubusercontent.com/54713067/101454312-1bc7ca80-3974-11eb-8dbf-5f300a0afff1.gif)
+![2020-12-19-03_25_01](https://user-images.githubusercontent.com/54713067/102647947-fd4ea400-41a9-11eb-9447-15897464867d.gif)
+
+<!-- ![2020-12-08 16_38_28](https://user-images.githubusercontent.com/54713067/101454312-1bc7ca80-3974-11eb-8dbf-5f300a0afff1.gif) -->
 
 ### [🍦 Icecream](https://github.com/gr-p/interaction/tree/main/ui/5-Icecream)
 
