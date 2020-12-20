@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*
+Salad slide 만드는 방법
+https://diary-blog.github.io/salad-carousel-slide/
+*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -10,6 +15,7 @@
 body {
   background: url("./img/bg.jpg");
   overflow: hidden;
+  background-size: cover;
 }
 
 .title {
