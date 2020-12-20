@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*
+빛나는 불빛 만드는 방법
+https://diary-blog.github.io/glow-light/
+*/
 @font-face {
   font-family: 'Cafe24Oneprettynight';
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff") format("woff");
@@ -65,8 +70,8 @@ body {
   width: 1px;
   height: 1px;
   background-color: #af855d;
-  -webkit-box-shadow: 0 0 0 2px #fff, 0 0 0 3px #ffb68b, 0 0 5px 3px #ff9d00;
-          box-shadow: 0 0 0 2px #fff, 0 0 0 3px #ffb68b, 0 0 5px 3px #ff9d00;
+  -webkit-box-shadow: 0 0 0 2px #fff, 0 0 0 3px #ffb68b, 0 0 5px 3px #ff9d00;
+          box-shadow: 0 0 0 2px #fff, 0 0 0 3px #ffb68b, 0 0 5px 3px #ff9d00;
   border-radius: 50%;
   -webkit-filter: blur(1px);
           filter: blur(1px);

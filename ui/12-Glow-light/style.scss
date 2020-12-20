@@ -1,3 +1,9 @@
+/*
+빛나는 불빛 만드는 방법
+https://diary-blog.github.io/glow-light/
+*/
+
+
 @font-face {
   font-family: 'Cafe24Oneprettynight';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
@@ -54,19 +60,19 @@ body {
 
     span {
       position: absolute;
-      width:  1px;                            // 작은 불빛 사이즈
+      width:  1px;
       height: 1px;
-      background-color: rgb(175, 133, 93);  // 큰 불빛 컬러
-      box-shadow: 0 0 0 2px #fff,           // 작은 불빛 컬러
+      background-color: rgb(175, 133, 93);
+      box-shadow: 0 0 0 2px #fff,
                   0 0 0 3px #ffb68b,
                   0 0 5px 3px #ff9d00;
-      border-radius: 50%;                     // 불빛 radius
-      filter: blur(1px);                      // 작은 불빛 블러
+      border-radius: 50%;
+      filter: blur(1px);
     }
     .blur {
-      width:  100px;                          // 큰 불빛 사이즈
+      width:  100px;
       height: 100px;
-      filter: blur(7px);                      // 큰 불빛 블러
+      filter: blur(7px);
     }
   }
 }
