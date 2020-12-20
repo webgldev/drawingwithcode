@@ -1,3 +1,8 @@
+/*
+Salad slide 만드는 방법
+https://diary-blog.github.io/salad-carousel-slide/
+*/
+
 $break-m: 768px;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -12,6 +17,7 @@ $break-m: 768px;
 body {
   background: url('./img/bg.jpg');
   overflow: hidden;
+  background-size: cover;
 }
 
 .title {
@@ -42,71 +48,74 @@ body {
   }
 }
 section {
-  position: relative;
   width: 100%; height: 100vh;
   display: flex; justify-content: center;
   align-items: flex-end;
 
   .slider {
-    position: relative;
     width: 100%;
     height: 100%;
+
     display: flex;
     justify-content: flex-end;
-    z-index: 10;
 
-    img {
-      position: absolute;
-      bottom: -100px;
-      right:  -100px;
-      width: 626px;
-      height: 626px;
-      @media screen and (max-width: $break-m) {
-      right: 0px;
-      width: 100%;
-      height: auto;
-      }
-    }
     .swiper-container {
       width: 100%;
       margin-bottom: -100px;
 
       .swiper-slide {
-        background-position: center;
-        background-size: cover;
         width: 400px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        position: relative;
 
-        &>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        .menu {
           height: auto;
           display: flex;
           flex-direction: column;
           align-items: center;
 
-          p {font-size: 0.875rem;}
+          p {
+            font-size: 0.875rem;
+            @media screen and (max-width: $break-m) {
+              font-size: 0.625rem;
+            }
+          }
           p:nth-of-type(1) {
             color: #9ba91f;
             height: auto;
             padding-bottom: 8px;
             margin-bottom:  8px;
             border-bottom: 1px solid #898989;
-            display: flex;
-            justify-content: center;
           }
           .kcal {
             color: #898989;
             margin-top: 10px;
+            font-size: 0.75rem;
           }
         }
-        a {
+        .salad-img {
           width: 100%;
-          height: 15%;
+          height: 150px;
           @media screen and (max-width: $break-m) {
             height: 50px;
+          }
+          a {
+            img {
+              position: absolute;
+              right: -100px;
+              width:  600px;
+              height: 600px;
+
+              @media screen and (max-width: $break-m) {
+              right: 0px;
+              width: 100%;
+              height: auto;
+              } 
+            }
           }
         }
       }
@@ -115,11 +124,5 @@ section {
       transform: scale(1.5)!important;
     }
   }
-}
-
-/* swiper css 수정 */
-.swiper-container-3d {
-  .swiper-slide-shadow-left {background: none;}
-  .swiper-slide-shadow-right {background: none;}
 }
 

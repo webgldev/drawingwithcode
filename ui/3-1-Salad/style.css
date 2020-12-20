@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -54,7 +53,6 @@ body {
 }
 
 section {
-  position: relative;
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -69,7 +67,6 @@ section {
 }
 
 section .slider {
-  position: relative;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -78,23 +75,6 @@ section .slider {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  z-index: 10;
-}
-
-section .slider img {
-  position: absolute;
-  bottom: -100px;
-  right: -100px;
-  width: 626px;
-  height: 626px;
-}
-
-@media screen and (max-width: 768px) {
-  section .slider img {
-    right: 0px;
-    width: 100%;
-    height: auto;
-  }
 }
 
 section .slider .swiper-container {
@@ -103,26 +83,22 @@ section .slider .swiper-container {
 }
 
 section .slider .swiper-container .swiper-slide {
-  background-position: center;
-  background-size: cover;
   width: 400px;
-  text-align: center;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
-section .slider .swiper-container .swiper-slide > div {
+section .slider .swiper-container .swiper-slide .menu {
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,51 +112,58 @@ section .slider .swiper-container .swiper-slide > div {
           align-items: center;
 }
 
-section .slider .swiper-container .swiper-slide > div p {
+section .slider .swiper-container .swiper-slide .menu p {
   font-size: 0.875rem;
 }
 
-section .slider .swiper-container .swiper-slide > div p:nth-of-type(1) {
+@media screen and (max-width: 768px) {
+  section .slider .swiper-container .swiper-slide .menu p {
+    font-size: 0.625rem;
+  }
+}
+
+section .slider .swiper-container .swiper-slide .menu p:nth-of-type(1) {
   color: #9ba91f;
   height: auto;
   padding-bottom: 8px;
   margin-bottom: 8px;
   border-bottom: 1px solid #898989;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-section .slider .swiper-container .swiper-slide > div .kcal {
+section .slider .swiper-container .swiper-slide .menu .kcal {
   color: #898989;
   margin-top: 10px;
+  font-size: 0.75rem;
 }
 
-section .slider .swiper-container .swiper-slide a {
+section .slider .swiper-container .swiper-slide .salad-img {
   width: 100%;
-  height: 15%;
+  height: 150px;
 }
 
 @media screen and (max-width: 768px) {
-  section .slider .swiper-container .swiper-slide a {
+  section .slider .swiper-container .swiper-slide .salad-img {
     height: 50px;
+  }
+}
+
+section .slider .swiper-container .swiper-slide .salad-img a img {
+  position: absolute;
+  right: -100px;
+  width: 600px;
+  height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  section .slider .swiper-container .swiper-slide .salad-img a img {
+    right: 0px;
+    width: 100%;
+    height: auto;
   }
 }
 
 section .slider .swiper-slide-active {
   -webkit-transform: scale(1.5) !important;
           transform: scale(1.5) !important;
-}
-
-/* swiper css 수정 */
-.swiper-container-3d .swiper-slide-shadow-left {
-  background: none;
-}
-
-.swiper-container-3d .swiper-slide-shadow-right {
-  background: none;
 }
 /*# sourceMappingURL=style.css.map */
