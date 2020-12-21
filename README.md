@@ -29,8 +29,6 @@
 
 ![2020-12-19-03_25_01](https://user-images.githubusercontent.com/54713067/102647947-fd4ea400-41a9-11eb-9447-15897464867d.gif)
 
-<!-- ![2020-12-08 16_38_28](https://user-images.githubusercontent.com/54713067/101454312-1bc7ca80-3974-11eb-8dbf-5f300a0afff1.gif) -->
-
 ### [🍦 Icecream](https://github.com/gr-p/interaction/tree/main/ui/5-Icecream)
 
 ![2020-12-09-23_23_53](https://user-images.githubusercontent.com/54713067/101642703-a264d080-3a76-11eb-87d6-54b4d8555d18.gif)
@@ -38,7 +36,6 @@
 ### [❄️ Snow](https://github.com/gr-p/interaction/tree/main/ui/6-Snow)
 
 ![2020-12-19_03_54_48](https://user-images.githubusercontent.com/54713067/102650346-1c4f3500-41ae-11eb-9406-be920114c60c.gif)
-<!-- ![2020-12-11-17_19_46](https://user-images.githubusercontent.com/54713067/101880007-8fb4dd80-3bd5-11eb-9a6c-9cfaa44564c5.gif) -->
 
 ### [🎨 Pantone](https://github.com/gr-p/interaction/tree/main/ui/7-Pantone)
 
@@ -54,7 +51,7 @@
 
 ### ✉️ Envelope
 - [Original Code](https://github.com/gr-p/interaction/tree/main/ui/10-Envelope)  
-- [Final result (Recorded video)(30s)](https://youtu.be/BDF0Gf-tG6o)
+- [Final result (Recorded video 30s)](https://youtu.be/BDF0Gf-tG6o)
 
 ![2020-12-15-05_24_25](https://user-images.githubusercontent.com/54713067/102131686-ecdeb680-3e95-11eb-9084-1a70f6e9a77a.gif)
 
@@ -68,6 +65,9 @@
 
 ![2020-12-18-00_59_29](https://user-images.githubusercontent.com/54713067/102511819-9909e280-40cc-11eb-8848-0c5f59bf7479.gif)
 
+<br/>
+<br/>
 
-<br/>
-<br/>
+***
+
+**If this project was useful, please star★ this project!**
