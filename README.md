@@ -1,13 +1,10 @@
-🌷 HTML, SCSS, CSS, vanila Javascript  
-🌷 GreenSock(GSAP), SwiperJS, splittingJS
+![wfedev](https://user-images.githubusercontent.com/54713067/102930562-0314f400-44e0-11eb-90e6-a980f257fd47.png)
 
-<br/>
+<!-- *HTML, SCSS, CSS, vanila Javascript, GreenSock(GSAP), SwiperJS, splittingJS* -->
 
 ***
 
 <br/>
-
-### ★ UI
 
 ### [☕ Tea](https://github.com/gr-p/interaction/tree/main/ui/1-Tea)
 
@@ -30,10 +27,9 @@
 
 ![2020-12-19-03_25_01](https://user-images.githubusercontent.com/54713067/102647947-fd4ea400-41a9-11eb-9447-15897464867d.gif)
 
-### [Car parallax](https://github.com/gr-p/interaction/tree/main/ui/5-1-Car-parallax)
+### [🚗 Car parallax](https://github.com/gr-p/interaction/tree/main/ui/5-1-Car-parallax)
 
 ![2020-12-23-04_28_15](https://user-images.githubusercontent.com/54713067/102925823-70705700-44d7-11eb-81b6-4749c6abbef6.gif)
-
 
 <!-- ### [🍦 Icecream](https://github.com/gr-p/interaction/tree/main/ui/5-Icecream)
 ![2020-12-09-23_23_53](https://user-images.githubusercontent.com/54713067/101642703-a264d080-3a76-11eb-87d6-54b4d8555d18.gif) -->
