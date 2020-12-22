@@ -1,4 +1,5 @@
-![wfedev](https://user-images.githubusercontent.com/54713067/102930562-0314f400-44e0-11eb-90e6-a980f257fd47.png)
+![wfedev](https://user-images.githubusercontent.com/54713067/102930780-728ae380-44e0-11eb-9dcc-b4ecece2107d.png)
+
 
 <!-- *HTML, SCSS, CSS, vanila Javascript, GreenSock(GSAP), SwiperJS, splittingJS* -->
 
