@@ -35,12 +35,12 @@ title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   position: relative;
   height: 100vh;
   background: url(./img/bg1.jpg);
@@ -48,10 +48,22 @@ title {
   background-position: bottom;
 }
 
+.top a {
+  width: 100px;
+  border: 1px solid #8c8c8c;
+  text-decoration: none;
+  padding: 8px 24px;
+  color: #000;
+  background-color: #eee;
+}
+
+.top a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 .top #text {
   position: relative;
-  font-size: 4rem;
-  color: #9c9c9c;
   z-index: 1;
   -webkit-animation: textani calc(50s * var(--i)) cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
           animation: textani calc(50s * var(--i)) cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
@@ -159,7 +171,7 @@ title {
 
 section {
   position: relative;
-  padding: 75px 100px;
+  padding: 150px 260px;
   width: 100vw;
   overflow: hidden;
 }
@@ -172,19 +184,24 @@ section {
 
 section h2 {
   position: relative;
-  font-style: 2.5em;
-  margin-bottom: 20px;
+  font-size: 4em;
+  color: #3e3e3e;
 }
 
 section > p {
-  color: #ccc;
+  color: #333;
+  font-size: 1.2rem;
+  width: 300px;
+  text-align: right;
+  padding: 20px 0;
+  line-height: 24px;
 }
 
 section .contents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10px;
+  margin-top: 30px;
   width: 800px;
 }
 
@@ -199,8 +216,8 @@ section .contents > p {
 }
 
 section .contents > img {
-  width: 800px;
-  border-radius: 20px;
+  width: 300px;
+  border-radius: 10px;
   margin: 40px 0;
 }
 

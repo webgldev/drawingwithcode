@@ -17,8 +17,8 @@ title {display: none;}
 // 상단 타이틀 및 애니메이션
 .top {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
 
   position: relative;
   height: 100vh;
@@ -31,10 +31,20 @@ title {display: none;}
   background-size: cover;
   background-position: bottom;
 
+  a {
+    width: 100px;
+    border: 1px solid #8c8c8c;
+    text-decoration: none;
+    padding: 8px 24px;
+    color: #000;
+    background-color: #eee;
+  }
+  a:hover {
+    background-color: #000;
+    color: #fff;
+  }
   #text {
     position: relative;
-    font-size: 4rem;
-    color: #9c9c9c;
     z-index: 1;
     animation: textani calc(50s * var(--i)) cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
   }
@@ -95,7 +105,7 @@ title {display: none;}
 // 컨텐츠
 section {
   position: relative;
-  padding: 75px 100px;
+  padding: 150px 260px;
   width: 100vw;
   overflow: hidden;
 
@@ -105,15 +115,22 @@ section {
 
   h2 {
     position: relative;
-    font-style: 2.5em;
-    margin-bottom: 20px;
+    font-size: 4em;
+    color: #3e3e3e;
   }
 
-  &>p {color: #ccc;}
+  &>p {
+    color: #333;
+    font-size: 1.2rem;
+    width: 300px;
+    text-align: right;
+    padding: 20px 0;
+    line-height: 24px;
+  }
 
   .contents {
     display: flex;
-    margin-top: 10px;
+    margin-top: 30px;
     width: 800px;
 
     @media screen and (max-width: 768px) {
@@ -123,8 +140,8 @@ section {
     &>p {color: #888;}
 
     &>img {
-      width: 800px;
-      border-radius: 20px;
+      width: 300px;
+      border-radius: 10px;
       margin: 40px 0;
       @media screen and (max-width: 768px) {
         width: 100%;

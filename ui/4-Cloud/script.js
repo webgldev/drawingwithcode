@@ -52,8 +52,6 @@ window.addEventListener("load", function() {
 
 window.addEventListener("scroll", function() {
   let value = window.scrollY;
-
   imageAnimate(value);
-
-  text.style.marginBottom = value * 2 + 'px';
+  text.style.marginTop = value / 1.5 + 'px';
 })
