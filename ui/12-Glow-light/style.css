@@ -26,6 +26,7 @@ body {
 
 .container .title {
   width: 100%;
+  height: 93%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,15 +36,14 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 100%;
 }
 
 .container .title p {
   z-index: 1;
   color: #fff;
   position: absolute;
-  height: 150px;
-  font-size: 4rem;
+  height: 140px;
+  font-size: 3.5rem;
   text-shadow: 0 0 5px #fefce5, 0 0 10px #fffef3, 0 0 15px #fee2a2, 0 0 20px #f0c780, 0 0 30px #fef7cc, 0 0 40px #ff9f00, 0 0 55px #ff9700, 0 0 75px #fec379, 2px 2px 2px rgba(142, 139, 116, 0), 2px 2px 2px;
 }
 
@@ -63,6 +63,7 @@ body {
   top: 0;
   bottom: 0;
   overflow: hidden;
+  margin-top: -150px;
 }
 
 .container .stage span {

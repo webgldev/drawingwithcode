@@ -76,7 +76,7 @@ function makeLight(i) {
     tl.to(span, {
       x: gsap.utils.random(-100, 100),
       y: gsap.utils.random(-100, 100),
-      duration: gsap.utils.random(4, 2, 1),
+      duration: gsap.utils.random(4, 2, 5),
       ease: Power0.easeNone
     }, -0.3)
 

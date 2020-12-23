@@ -66,7 +66,7 @@
 - [Original Code](https://github.com/gr-p/interaction/tree/main/ui/12-Glow-light)  
 - [Let's learn how to make this example!](https://diary-blog.github.io/glow-light/)
 
-![2020-12-18-00_59_29](https://user-images.githubusercontent.com/54713067/102511819-9909e280-40cc-11eb-8848-0c5f59bf7479.gif)
+![2020-12-24-02_02_17](https://user-images.githubusercontent.com/54713067/103020913-aae7fb80-458c-11eb-9704-e938473e777c.gif)
 
 ### [🔥 Hover & Spinner effect](https://github.com/gr-p/interaction/tree/main/ui/11-Spinner-effect)
 
