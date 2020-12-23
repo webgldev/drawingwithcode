@@ -41,9 +41,9 @@ function styleEdit() {
   layer1.style.left = left - (scroll * 1) + "px";
   
   layer2.style.width = (75 + scroll / 10) + "%";
-  layer2.style.right = -(scroll * 5) + "px";
+  layer2.style.right = -(scroll * 6) + "px";
 
-  text.style.bottom = - (15 * scroll / 10) + "%";
+  text.style.bottom = - (5 * scroll / 10) + "%";
 }
 
 window.addEventListener("resize", function(e) {

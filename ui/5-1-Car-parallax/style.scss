@@ -13,9 +13,9 @@ body {
 }
 .zoom {
   width: 100%;
-  height: 100vw;
+  height: 100vh;
   min-height: 580px;
-  max-height: 600px;
+  max-height: 700px;
   position: relative;
   overflow: hidden;
   background: #e0e0e0;
@@ -79,7 +79,7 @@ body {
     width: 100%;
     max-width: 720px;
     z-index: 9;
-    transform: translateX(-65%) translateY(45px);
+    transform: translateX(-65%) translateY(-5px);
   }
 
   #text {
@@ -90,7 +90,8 @@ body {
     margin: auto;
     z-index: 999;
     font-size: 40px;
-    transform: translateY(21%);
+    transform: translateY(31%);
+    text-shadow: 3px -3px 3px #bbbbbb;
   }
 }
 
@@ -104,5 +105,6 @@ body {
   p {
     font-size: 1.2rem;
     color: #b5b5b5;
+    word-break: break-all;
   }
 }
