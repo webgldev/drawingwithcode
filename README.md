@@ -26,7 +26,8 @@
 
 ### [☁️ Cloud](https://github.com/gr-p/interaction/tree/main/ui/4-Cloud)
 
-![2020-12-19-03_25_01](https://user-images.githubusercontent.com/54713067/102647947-fd4ea400-41a9-11eb-9447-15897464867d.gif)
+
+![2020-12-24 03;28;50](https://user-images.githubusercontent.com/54713067/103026930-43d04400-4598-11eb-928f-210e76ee68b8.gif)
 
 ### 🥗 Salad
 - [Original Code](https://github.com/gr-p/interaction/tree/main/ui/3-1-Salad)  
