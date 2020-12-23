@@ -51,7 +51,7 @@
 
 ### [🚗 Car parallax](https://github.com/gr-p/interaction/tree/main/ui/5-1-Car-parallax)
 
-![2020-12-23-04_28_15](https://user-images.githubusercontent.com/54713067/102925823-70705700-44d7-11eb-81b6-4749c6abbef6.gif)
+![2020-12-24 02;39;31](https://user-images.githubusercontent.com/54713067/103023480-63b03980-4591-11eb-8f6a-d76dc71d83c6.gif)
 
 <!-- ### [🍦 Icecream](https://github.com/gr-p/interaction/tree/main/ui/5-Icecream)
 ![2020-12-09-23_23_53](https://user-images.githubusercontent.com/54713067/101642703-a264d080-3a76-11eb-87d6-54b4d8555d18.gif) -->
