@@ -83,4 +83,4 @@
 
 ***
 
-**If this project was useful, please star★ this project!**
+**If these project were useful, please star★ this repo!**
