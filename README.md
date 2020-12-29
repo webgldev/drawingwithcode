@@ -77,7 +77,7 @@
 
 ![2020-12-22-16_00_01](https://user-images.githubusercontent.com/54713067/102859300-04f29f00-446f-11eb-9b12-43621ea03d97.gif)
 
-### [Text color Mix blend](https://github.com/gr-p/interaction/tree/main/ui/14-diagonal)
+### [◻️ Text color Mix blend](https://github.com/gr-p/interaction/tree/main/ui/14-Diagonal)
 
 ![](img/2020-12-29-16-23-27.png)
 
