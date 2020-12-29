@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'NewYork Font';
+  src: local('NewYork Font'),
+       url('/font/NewYork-PERSONAL-USE.woff') format('woff'),
+}
+
+$bg-grey: #eee;
+$bg-black: #000;
+
+* {box-sizing: border-box;}
+body {
+  font-family: 'NewYork Font', serif;
+  background-color: $bg-grey;
+}
+
+.title {
+  height: 90vh;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    @extend div;
+    color: #000;
+    width: 100%;
+    line-height: 60px;
+
+    span {
+      font-size: 70px;
+      font-weight: 100;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      position: relative;
+
+      &:first-of-type::before {
+        content: '';
+
+        width: 140px;
+        height: 1px;
+
+        position: absolute;
+        top: 50%;
+        left: -40%;
+
+        background-color: $bg-black;
+      }
+      &:nth-of-type(2) {margin-left: -50px;}
+      &:nth-of-type(3) {margin-left: 160px;}
+      &:nth-of-type(4) {margin-left: -200px;}
+      &:last-of-type::after {
+        content: 'Text color mix blend mode by wfedev';
+        color: #3e3f3f;
+        
+        position: absolute;
+        top: 90px;
+        bottom: 0;
+        left: 2px;
+        right: 0;
+        margin: auto;
+        
+        width: 100%;
+        height: 100%;
+        
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 0px;
+        font-weight: 800;
+        text-transform: none;
+      }
+    }
+  }
+}
+
+
+.rect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  visibility: hidden;
+  will-change: transform;
+  pointer-events: none;
+  bottom: unset;
+  visibility: inherit;
+}
+
+// 대각선 
+.shape {
+  width: 70vw;
+  height: 10vw;
+  background-color: $bg-grey;
+  mix-blend-mode: exclusion;
+
+  opacity: 0.7;
+  transform: translate(-50%, -50%) rotate(-35deg) scaleY(1);
+}
+
+// 노란색
+.shape2 {
+  width: 80px;
+  height: 200px;
+  background-color: #fff9cc;
+  mix-blend-mode: multiply;
+  filter: blur(7px);
+
+  opacity: 0.5;
+  transform: translate(-280%, -85%) rotate(90deg) scaleY(1);
+}
+
+// 주황색
+.shape3 {
+  width: 90px;
+  height: 130px;
+  background-color: #fff4e5;
+  mix-blend-mode: hard-light;
+  filter: blur(10px);
+
+  opacity: 0.7;
+  transform: translate(190%, -35%) rotate(70deg) scaleY(2);
+}
+
+// 하얀색
+.shape4 {
+  width:  90px;
+  height: 80px;
+  background-color: #f6f6f6;
+  mix-blend-mode: color-burn;
+
+  opacity: 0.7;
+  transform: translate(-310%, -155%) rotate(100deg) scaleY(2);
+}
