@@ -1,15 +1,12 @@
-@font-face {
-  font-family: 'NewYork Font';
-  src: local('NewYork Font'),
-       url('/font/NewYork-PERSONAL-USE.woff') format('woff'),
-}
+@import '../../fonts/_fonts';
+@include font-face("NewYorkFont", "../../fonts/NewYork-PERSONAL-USE", 700, "woff");
 
 $bg-grey: #eee;
 $bg-black: #000;
 
 * {box-sizing: border-box;}
 body {
-  font-family: 'NewYork Font', serif;
+  font-family: 'NewYorkFont', serif;
   background-color: $bg-grey;
 }
 
@@ -38,19 +35,16 @@ div {
 
       &:first-of-type::before {
         content: '';
-
-        width: 140px;
+        width: 100px;
         height: 1px;
-
         position: absolute;
         top: 50%;
-        left: -40%;
-
+        left: -30%;
         background-color: $bg-black;
       }
-      &:nth-of-type(2) {margin-left: -50px;}
-      &:nth-of-type(3) {margin-left: 160px;}
-      &:nth-of-type(4) {margin-left: -200px;}
+      &:nth-of-type(2) {margin-left: 10px;}
+      &:nth-of-type(3) {margin-left: 200px;}
+      &:nth-of-type(4) {margin-left: -180px;}
       &:last-of-type::after {
         content: 'Text color mix blend mode by wfedev';
         color: #3e3f3f;
@@ -90,12 +84,12 @@ div {
 // 대각선 
 .shape {
   width: 70vw;
-  height: 10vw;
+  height: 14vw;
   background-color: $bg-grey;
   mix-blend-mode: exclusion;
 
   opacity: 0.7;
-  transform: translate(-50%, -50%) rotate(-35deg) scaleY(1);
+  transform: translate(-50%, -60%) rotate(-50deg) scaleY(1);
 }
 
 // 노란색
@@ -107,7 +101,7 @@ div {
   filter: blur(7px);
 
   opacity: 0.5;
-  transform: translate(-280%, -85%) rotate(90deg) scaleY(1);
+  transform: translate(-230%, -85%) rotate(90deg) scaleY(1);
 }
 
 // 주황색
@@ -130,5 +124,5 @@ div {
   mix-blend-mode: color-burn;
 
   opacity: 0.7;
-  transform: translate(-310%, -155%) rotate(100deg) scaleY(2);
+  transform: translate(-260%, -155%) rotate(100deg) scaleY(2);
 }

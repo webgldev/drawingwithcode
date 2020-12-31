@@ -79,7 +79,9 @@
 
 ### [◻️ Text color Mix blend](https://github.com/gr-p/interaction/tree/main/ui/14-Diagonal)
 
-![](img/2020-12-29-16-23-27.png)
+![image](https://user-images.githubusercontent.com/54713067/103430955-9c44b880-4c0c-11eb-8175-d4bbe45920ee.png)
+
+
 
 <br/>
 <br/>

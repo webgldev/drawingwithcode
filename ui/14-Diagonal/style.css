@@ -1,6 +1,8 @@
 @font-face {
-  font-family: 'NewYork Font';
-  src: local("NewYork Font"), url("/font/NewYork-PERSONAL-USE.woff") format("woff");
+  font-family: "NewYorkFont";
+  font-style: "woff";
+  font-weight: 700;
+  src: url("../../fonts/NewYork-PERSONAL-USE.woff2") format("woff2"), url("../../fonts/NewYork-PERSONAL-USE.woff") format("woff");
 }
 
 * {
@@ -9,7 +11,7 @@
 }
 
 body {
-  font-family: 'NewYork Font', serif;
+  font-family: 'NewYorkFont', serif;
   background-color: #eee;
 }
 
@@ -49,24 +51,24 @@ div h1 span {
 
 div h1 span:first-of-type::before {
   content: '';
-  width: 140px;
+  width: 100px;
   height: 1px;
   position: absolute;
   top: 50%;
-  left: -40%;
+  left: -30%;
   background-color: #000;
 }
 
 div h1 span:nth-of-type(2) {
-  margin-left: -50px;
+  margin-left: 10px;
 }
 
 div h1 span:nth-of-type(3) {
-  margin-left: 160px;
+  margin-left: 200px;
 }
 
 div h1 span:nth-of-type(4) {
-  margin-left: -200px;
+  margin-left: -180px;
 }
 
 div h1 span:last-of-type::after {
@@ -100,12 +102,12 @@ div h1 span:last-of-type::after {
 
 .shape {
   width: 70vw;
-  height: 10vw;
+  height: 14vw;
   background-color: #eee;
   mix-blend-mode: exclusion;
   opacity: 0.7;
-  -webkit-transform: translate(-50%, -50%) rotate(-35deg) scaleY(1);
-          transform: translate(-50%, -50%) rotate(-35deg) scaleY(1);
+  -webkit-transform: translate(-50%, -60%) rotate(-50deg) scaleY(1);
+          transform: translate(-50%, -60%) rotate(-50deg) scaleY(1);
 }
 
 .shape2 {
@@ -116,8 +118,8 @@ div h1 span:last-of-type::after {
   -webkit-filter: blur(7px);
           filter: blur(7px);
   opacity: 0.5;
-  -webkit-transform: translate(-280%, -85%) rotate(90deg) scaleY(1);
-          transform: translate(-280%, -85%) rotate(90deg) scaleY(1);
+  -webkit-transform: translate(-230%, -85%) rotate(90deg) scaleY(1);
+          transform: translate(-230%, -85%) rotate(90deg) scaleY(1);
 }
 
 .shape3 {
@@ -138,7 +140,7 @@ div h1 span:last-of-type::after {
   background-color: #f6f6f6;
   mix-blend-mode: color-burn;
   opacity: 0.7;
-  -webkit-transform: translate(-310%, -155%) rotate(100deg) scaleY(2);
-          transform: translate(-310%, -155%) rotate(100deg) scaleY(2);
+  -webkit-transform: translate(-260%, -155%) rotate(100deg) scaleY(2);
+          transform: translate(-260%, -155%) rotate(100deg) scaleY(2);
 }
 /*# sourceMappingURL=style.css.map */
