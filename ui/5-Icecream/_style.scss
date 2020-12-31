@@ -5,23 +5,12 @@ body {
 
 .zoom {
   width: 100%;
-  // height: 1000px;
   height: 100vw;
   min-height: 580px;
   max-height: 600px;
   position: relative;
   overflow: hidden;
-  // background: url(./img/bg.jpg);
-  // background-size: cover;
   background: #f7e056;
-
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-
-  @media screen and (max-width: 768px) {
-    // height: 400px;
-  }
 
   &::before {
     content: '';
@@ -62,14 +51,6 @@ body {
     margin: auto;
     width: 85vw;
     max-width: 300px;
-    // transform: translateX(-9%) translateY(50%);
-
-    // position: absolute;
-    // right: 0;
-    // width: 25vw;
-    // top: 0;
-    // -webkit-transform: translateX(-9%) translateY(50%);
-    // transform: translateX(-140%) translateY(150%);
   }
 }
 
