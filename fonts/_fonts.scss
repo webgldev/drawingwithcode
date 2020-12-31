@@ -1,14 +1,4 @@
-// @font-face {
-//   font-family: 'NewYorkFont';
-//   src: local('NewYorkFont'),
-//        url('/fonts/NewYork-PERSONAL-USE.woff') format('woff'),
-// }
-
-// body {
-//   font-family: 'NewYorkFont';
-// }
-
-@mixin font-face( $font-name, $font-path, // path + file name. Ex : path/to/font/filename
+@mixin font-face( $font-name, $font-path,
 $font-weight: 400, $font-style: normal, $support-required: 'modern') {
   @font-face {
     font-family: $font-name;
