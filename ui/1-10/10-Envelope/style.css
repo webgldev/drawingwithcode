@@ -39,7 +39,7 @@ body {
 }
 
 .container .index {
-  background: #000;
+  background: #625133;
   color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -47,45 +47,45 @@ body {
   text-align: center;
 }
 
-.container .bg1 {
+.container div .bg1 {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.container .bg2 {
+.container div .bg2 {
   text-align: right;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
 }
 
-.container .bg3 p:nth-child(2) {
+.container div .bg3 p:nth-child(2) {
   padding-bottom: 500px;
 }
 
-.container .content p {
+.container div .content p {
   color: #fff;
   text-shadow: 0 0 10px #d39838;
 }
 
-.container .bg1 {
+.container div .bg1 {
   background: url("./img/1.jpg");
 }
 
-.container .bg2 {
+.container div .bg2 {
   background: url("./img/2.jpg");
 }
 
-.container .bg3 {
+.container div .bg3 {
   background: url("./img/3.jpg");
 }
 
-.container .bg1, .container .bg2, .container .bg3 {
+.container div .index, .container div .bg1, .container div .bg2, .container div .bg3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -12,7 +12,7 @@ body {
 .container {
   .section {
     width: 100%;
-    height: 100vh;
+    height: 100vh;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,36 +30,38 @@ body {
     }
   }
   .index {
-    background: #000;
+    background: #625133;
     color: #fff;
     align-items: center;
     text-align: center;
   }
-  .bg1 {
-    text-align: center;
-  }
-  .bg2 {
-    text-align: right;
-    align-items: flex-end;
-  }
-  .bg3 {
-    p:nth-child(2) {padding-bottom: 500px;}
-  }
-  .content {
-    p {
-      color: #fff;
-      text-shadow: 0 0 10px #d39838;
+  div {
+    .bg1 {
+      text-align: center;
+      align-items: center;
     }
-  }
-  .bg1 {background: url('./img/1.jpg');}
-  .bg2 {background: url('./img/2.jpg');}
-  .bg3 {background: url('./img/3.jpg');}
-  .bg1, .bg2, .bg3 {
-    justify-content: center;
-    align-items: center;
+    .bg2 {
+      text-align: right;
+      align-items: flex-end;
+    }
+    .bg3 {
+      p:nth-child(2) {padding-bottom: 500px;}
+    }
+    .content {
+      p {
+        color: #fff;
+        text-shadow: 0 0 10px #d39838;
+      }
+    }
+    .bg1 {background: url('./img/1.jpg');}
+    .bg2 {background: url('./img/2.jpg');}
+    .bg3 {background: url('./img/3.jpg');}
+    .index, .bg1, .bg2, .bg3 {
+      justify-content: center;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   }
 }

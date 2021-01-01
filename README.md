@@ -59,9 +59,9 @@
 
 ### ✉️ Envelope
 - [Original Code](https://github.com/gr-p/interaction/tree/main/ui/1-10/10-Envelope)  
-- [Final result (Recorded video 30s)](https://youtu.be/BDF0Gf-tG6o)
 
-![2020-12-15-05_24_25](https://user-images.githubusercontent.com/54713067/102131686-ecdeb680-3e95-11eb-9084-1a70f6e9a77a.gif)
+https://user-images.githubusercontent.com/54713067/103439103-891e0100-4c7d-11eb-941f-2e7ada8fb264.mp4
+
 
 ### ✨ Glow light
 - [Original Code](https://github.com/gr-p/interaction/tree/main/ui/11-20/12-Glow-light)  
