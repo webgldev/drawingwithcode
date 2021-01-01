@@ -12,8 +12,8 @@
    signup 버튼은 color가 초록색으로 변하면서
    버튼을 클릭 시 popup class에 active class가 추가되면서 0.5초 후에 팝업창이 오픈됨
 5. 사용자가 입력한 name input에 작성한 text는 popup에 innertext name에 동일하게 적용되어 출력됨
-   (현재는 onkeyup 으로 text 입력시에 바로 dom에 출력되도록 해두었는데
-    onchange로 바꿔서 text 입력 완료시에 dom에 출력되는걸로 수정해도됨)
+   (현재는 onchange로 text 입력 완료시에 dom에 출력되도록 해두었는데
+    onkeyup 으로 바꿔서 text 입력시에 텍스트가 바로 dom에 출력되는걸로 수정해도됨)
 6. 팝업창에서 닫기 버튼이나 다른 영역을 누르면 팝업창이 닫히면서 브라우저가 reload 됨
 
 [2] UX flow
