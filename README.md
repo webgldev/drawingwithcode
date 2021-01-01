@@ -83,7 +83,7 @@
 
 ### [🌼 Flower cursor](https://github.com/gr-p/interaction/tree/main/ui/11-20/15-Flower-cursor)
 
-![2021-01-01 09;15;23](https://user-images.githubusercontent.com/54713067/103431384-3d823d80-4c12-11eb-8635-aa99779f4f01.gif)
+![2021-01-01 09;42;43](https://user-images.githubusercontent.com/54713067/103431592-cea6e380-4c15-11eb-8340-85f661239c13.gif)
 
 
 

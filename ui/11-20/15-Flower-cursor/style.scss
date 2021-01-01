@@ -8,7 +8,7 @@ body {
   height: 100vh;
   display: flex;
   &>* { margin: auto;}
-
+  background: #f9feff;
   font-family: 'NewYorkFont', serif;
   cursor: none;
 }
@@ -16,20 +16,21 @@ body {
 .content {
   width:  700px;
   height: 400px;
-  background-color: #fffdf0;
+  background-color: #fffefb;
   display: flex;
   border-radius: 20px;
   border-radius: 10px;
   box-shadow: -1px 5px 8px 2px #f1f1f1;
-
+  opacity: 0.8;
+  
   &:hover {
-    opacity: 0.8;
+    opacity: 1;
   }
 
   &>* {margin: auto;}
   h1 {
     text-transform: uppercase;
-    font-size: 130px;
+    font-size: 100px;
     color: #114d5b;
     position: relative;
 
