@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body > * {
+  margin: auto;
+}
+
+.typing {
+  padding: 0px 30px;
+  font-size: 2rem;
+  font-family: monospace;
+  border-bottom: 1px solid;
+}
+
+.typing p {
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: text 3s steps(30, end) forwards, blink 1s infinite;
+          animation: text 3s steps(30, end) forwards, blink 1s infinite;
+}
+
+.typing p:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes text {
+  0% {
+    width: 5%;
+    color: #000;
+  }
+  100% {
+    width: 100%;
+    color: #cc0;
+  }
+}
+
+@keyframes text {
+  0% {
+    width: 5%;
+    color: #000;
+  }
+  100% {
+    width: 100%;
+    color: #cc0;
+  }
+}
+
+@-webkit-keyframes blink {
+  0%, 100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid #222;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid #222;
+  }
+}
+/*# sourceMappingURL=style.css.map */
