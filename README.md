@@ -7,6 +7,19 @@
 <!-- *(HTML, SCSS, CSS, Javascript)* -->
 <!-- *GreenSock(GSAP), SwiperJS, splittingJS* -->
 
+
+1. Using
+- HTML5, SCSS, Vanila JavaScript
+
+2. Library (css, js)
+- o : GSAP, Swiper, Splitting
+- x : Bootstrap, Jquery
+
+3. Just prototype only
+- Fixed viewport
+- Responsive Not working
+- I hate IE 🙅
+
 ![line2](https://user-images.githubusercontent.com/54713067/103439946-e9647100-4c84-11eb-81d0-df76033a1cc4.png)
 
 
