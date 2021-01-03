@@ -4,10 +4,6 @@
 
 🎁 UI Interaction
 
-<!-- *(HTML, SCSS, CSS, Javascript)* -->
-<!-- *GreenSock(GSAP), SwiperJS, splittingJS* -->
-
-
 1. Using
 - HTML5, SCSS, Vanila JavaScript
 
@@ -15,7 +11,7 @@
 - o : GSAP, Swiper, Splitting
 - x : Bootstrap, Jquery
 
-3. Just prototype only
+3. Just UI prototype only
 - Fixed viewport
 - Responsive Not working
 - I hate IE 🙅
