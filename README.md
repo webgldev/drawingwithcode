@@ -59,7 +59,7 @@
 - [🌼 Flower cursor](https://github.com/gr-p/interaction/tree/main/ui/11-20/15-Flower-cursor)
 - [📑 Signup](https://github.com/gr-p/interaction/tree/main/ui/11-20/16-Signup)
 - [🎁 Cosmetics](https://github.com/gr-p/interaction/tree/main/ui/11-20/17-Cosmetics)
-- [Text Typing](https://github.com/gr-p/interaction/tree/main/ui/11-20/18-Typing)
+- [⌨️ Text Typing](https://github.com/gr-p/interaction/tree/main/ui/11-20/18-Typing)
 - [🌊 Water](https://github.com/gr-p/interaction/tree/main/ui/11-20/19-Water)
 
 </details>
