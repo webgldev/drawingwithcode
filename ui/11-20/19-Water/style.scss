@@ -1,0 +1,80 @@
+// best seen at 1500px or less
+@import '../../fonts/_fonts';
+@include font-face("allright", "../../fonts/allright", 700, "woff");
+
+body {
+  font-family: 'allright', serif;
+
+  margin: 0;
+  padding: 0;
+
+  background: #eafbff;
+  height: 100vh;
+  overflow: hidden;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  h2 {
+    font-size: 30px;
+    color: #98e2f6;
+    text-transform: uppercase;
+    
+    position: absolute;
+    bottom: 600px;
+    margin-left: 15px;
+    z-index: 3;
+  }
+}
+
+.glass{
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  position:absolute;
+
+  background: #fff;
+  opacity: .5;
+
+  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+  filter: blur(60px);
+}
+.water { 
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background: #ddf8ff;
+  position:absolute;
+  overflow: hidden;
+  display: flex;
+
+  border: 2px solid #afefff;
+  box-shadow: 0px 10px 20px #95eaff;
+}
+
+.wave {
+  background: url('./img/wave.png') repeat-x; 
+  position: absolute;
+  width: 5000px;
+  height: 400px;
+  bottom: -30px;
+  animation: wave 3s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  animation: wave  3s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.12s infinite,
+             swell 3s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {margin-left: 0;}
+  100% {margin-left: -1600px;}
+}
+
+@keyframes swell {
+  0%, 100% {transform: translate3d(0,-35px,0);}
+  50% {transform: translate3d(0,25px,0);}
+}
