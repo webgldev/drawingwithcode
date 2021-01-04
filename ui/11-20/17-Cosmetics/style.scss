@@ -1,4 +1,4 @@
-@import '../../fonts/_fonts';
+@import '../../utils/fonts';
 @include font-face("NewYorkFont", "../../fonts/NewYork-PERSONAL-USE", 700, "woff");
 
 * {margin: 0; padding: 0;}
@@ -25,15 +25,15 @@ body {
     }
   }
   .left {
-    height: 400px;
     width: 130px;
+    height: 400px;
     top: -168px;
     left: 35px;
   }
   .right {
     transform: skew(0deg, -30deg);
-    height: 400px;
     width: 110px;
+    height: 400px;
     top: -162px;
     left: 186px;
   }

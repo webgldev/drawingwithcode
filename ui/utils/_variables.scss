@@ -1,0 +1,30 @@
+// global color
+$c33 : #333333;
+$c82 : #828282;
+$cdd : #dddddd;
+
+// font size
+$f11: 0.6875rem;
+$f12: 0.75rem;
+$f13: 0.8125rem;
+$f14: 0.875rem;
+$f16: 1rem;
+$f17: 1.0625rem;
+$f18: 1.125rem;
+$f20: 1.25rem;
+$f24: 1.5rem;
+$f26: 1.625rem;
+
+// media query
+$b-s: 320px;
+$b-s: 559px;
+$b-m: 1024px;
+$b-l: 1119px;
+
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &>*{margin: auto;}
+}

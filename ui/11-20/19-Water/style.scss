@@ -1,5 +1,4 @@
-// best seen at 1500px or less
-@import '../../fonts/_fonts';
+@import '../../utils/fonts';
 @include font-face("allright", "../../fonts/allright", 700, "woff");
 
 $wh: 600px;

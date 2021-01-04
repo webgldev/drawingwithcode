@@ -1,4 +1,5 @@
-@import '../../fonts/_fonts';
+@import '../../utils/fonts';
+
 @include font-face("NewYorkFont", "../../fonts/NewYork-PERSONAL-USE", 700, "woff");
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
