@@ -5,6 +5,20 @@
   src: url("../../fonts/NewYork-PERSONAL-USE.woff2") format("woff2"), url("../../fonts/NewYork-PERSONAL-USE.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Letters-for-Learners";
+  font-style: "woff";
+  font-weight: 700;
+  src: url("../../fonts/Letters-for-Learners.woff2") format("woff2"), url("../../fonts/Letters-for-Learners.woff") format("woff");
+}
+
+@font-face {
+  font-family: "allright";
+  font-style: "woff";
+  font-weight: 700;
+  src: url("../../fonts/allright.woff2") format("woff2"), url("../../fonts/allright.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,8 +57,8 @@ body > * {
 }
 
 .first .left {
-  height: 400px;
   width: 130px;
+  height: 400px;
   top: -168px;
   left: 35px;
 }
@@ -52,8 +66,8 @@ body > * {
 .first .right {
   -webkit-transform: skew(0deg, -30deg);
           transform: skew(0deg, -30deg);
-  height: 400px;
   width: 110px;
+  height: 400px;
   top: -162px;
   left: 186px;
 }

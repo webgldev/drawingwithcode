@@ -1,7 +1,5 @@
 @import '../../utils/fonts';
-
-@include font-face("Letters-for-Learners", "../../fonts/Letters-for-Learners", 700, "woff");
-
+@import '../../utils/font';
 
 $success: #bada55;
 
