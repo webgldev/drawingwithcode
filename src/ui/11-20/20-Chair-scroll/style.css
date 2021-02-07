@@ -28,7 +28,7 @@ section .title {
 }
 
 section .title span {
-  color: #ffffff;
+  color: #fff;
   overflow: hidden;
 }
 
@@ -70,14 +70,14 @@ section .circle {
 
 .cluster-pieces .caption {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
   color: #ddca7e;
   text-align: right;
 }
 
 .cluster-pieces .caption span {
-  color: #ffffff;
+  color: #fff;
 }
 
 .cluster .dots-yellow {
