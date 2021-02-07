@@ -1,9 +1,11 @@
 // global color
+// c : color
 $c33 : #333333;
 $c82 : #828282;
 $cdd : #dddddd;
 
 // font size
+// f : font
 $f11: 0.6875rem;
 $f12: 0.75rem;
 $f13: 0.8125rem;
@@ -16,8 +18,9 @@ $f24: 1.5rem;
 $f26: 1.625rem;
 
 // media query
-$b-s: 320px;
-$b-s: 559px;
+// b : break
+$b-s1: 320px;
+$b-s2: 559px;
 $b-m: 1024px;
 $b-l: 1119px;
 
