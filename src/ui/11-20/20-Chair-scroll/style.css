@@ -1,0 +1,140 @@
+body {
+  background-color: #333;
+  padding: 40px;
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section .title {
+  color: #ddca7e;
+  font-size: 40px;
+  line-height: 68px;
+  font-family: 'Libre Baskerville', serif;
+  padding: 60px;
+  width: 100%;
+  background-color: transparent;
+  margin: 30px auto;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-kerning: none;
+          font-kerning: none;
+  text-align: center;
+}
+
+section .title span {
+  color: #ffffff;
+  overflow: hidden;
+}
+
+section .circle {
+  width: 100%;
+  max-width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background-color: #ddca7e;
+  bottom: 0;
+  z-index: 1;
+  left: 620px;
+  top: -100px;
+  opacity: .2;
+}
+
+.cluster {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  max-width: 874px;
+  margin: 100px auto;
+  background-color: transparent;
+  padding-bottom: 100px;
+}
+
+.cluster-area {
+  max-width: 874px;
+  height: 996px;
+}
+
+.cluster-pieces {
+  position: absolute;
+}
+
+.cluster-pieces img {
+  width: 100%;
+}
+
+.cluster-pieces .caption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ddca7e;
+  text-align: right;
+}
+
+.cluster-pieces .caption span {
+  color: #ffffff;
+}
+
+.cluster .dots-yellow {
+  width: 100%;
+  height: auto;
+  max-width: 494px;
+  max-height: 434px;
+  z-index: 3;
+  left: 0;
+  top: 160px;
+  opacity: .2;
+  mix-blend-mode: soft-light;
+}
+
+.cluster .dots-white {
+  width: 100%;
+  height: auto;
+  max-width: 310px;
+  max-height: 588px;
+  z-index: 2;
+  left: 0;
+  top: 400px;
+  mix-blend-mode: overlay;
+  opacity: .1;
+}
+
+.cluster .chair {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  max-height: 700px;
+  top: 0;
+  right: 135px;
+  z-index: 2;
+}
+
+.cluster .chair-area {
+  width: 100%;
+  height: auto;
+  max-width: 674px;
+  max-height: 700px;
+  top: 162px;
+  right: 0;
+  z-index: 1;
+}
+
+.cluster .triangle {
+  width: 100%;
+  max-width: 448px;
+  height: 446px;
+  left: -28px;
+  top: 0;
+  z-index: 3;
+  opacity: .2;
+}
+
+.bottom {
+  padding-bottom: 200px;
+}
+/*# sourceMappingURL=style.css.map */
