@@ -47,8 +47,8 @@ h1::before {
   height: 1px;
   background: #eee;
   position: absolute;
-  right: 55px;
-  top: 80px;
+  right: 45px;
+  top: 100px;
 }
 
 h1 span {
