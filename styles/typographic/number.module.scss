@@ -1,0 +1,52 @@
+@import '../var';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+$font-family: 'Montserrat';
+
+
+@mixin scaleAni {
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.number {
+  font-family: $font-family, sans-serif;
+  @include inner;
+  .box {
+    background-color: #000;
+    p {
+      position: absolute;
+      color: #fff;
+      font-weight: 100;
+      line-height: 100%;
+      @include scaleAni;
+      &:nth-of-type(1) {animation-name: move1; font-size: 13rem; top: 20px; left: 160px; }
+      &:nth-of-type(2) {animation-name: move2; font-size: 23rem; top: 0px; right: 80px;}
+      &:nth-of-type(3) {animation-name: move3; font-size: 25rem; bottom: 10px; left: 130px;}
+      &:nth-of-type(4) {animation-name: move4; font-size: 15rem; bottom: 0; right: 110px;}
+      &:hover {animation-play-state: paused; color: var(--color-yellow-1);}
+    }
+  }
+}
+
+@keyframes move1 {
+  0%   {transform: scale(1);}
+  50%  {transform: scale(1.8) translate(50px, 30px);}
+  100% {transform: scale(1);}
+}
+@keyframes move2 {
+  0%   { transform: scale(1);}
+  50%  { transform: scale(.7) translate(40px, 0px);}
+  100% { transform: scale(1);}
+}
+@keyframes move3 {
+  0%   { transform: scale(1);}
+  50%  { transform: scale(0.6) translate(-100px, -30px);}
+  100% { transform: scale(1);}
+}
+@keyframes move4 {
+  0%   { transform: scale(1);}
+  50%  { transform: scale(1.6) translate(-60px, -30px);}
+  100% { transform: scale(1);}
+}

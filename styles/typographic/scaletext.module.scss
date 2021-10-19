@@ -1,0 +1,24 @@
+@import '../var';
+
+.scaletext {
+  @include inner;
+  .box {
+    overflow: hidden;
+    font-weight: bold;
+    p {
+      opacity: 1;
+      transform: scale(1);
+      padding-left: 40px; padding-right: 40px; padding-top: 10px; padding-bottom: 10px;
+      animation: scale 10s ease 1;
+      &::before { content: ''; width: 100%; height: 1px; border: 1px solid; position: absolute; top: 0;    left: 0;}
+      &::after  { content: ''; width: 100%; height: 1px; border: 1px solid; position: absolute; bottom: 0; left: 0;}
+    }
+  }
+}
+
+@keyframes scale {
+  0%   {opacity: .1; transform: scale(50); padding-left: 170px;}
+  60%  {opacity: .5; padding-left: 170px;  padding-right: 40px;}
+  90%  {opacity: .9; padding-left: 100px;  padding-right: 80px;}
+  100% {opacity:  1; transform: scale(1);  padding-left:  40px;}
+}

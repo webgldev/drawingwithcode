@@ -1,0 +1,22 @@
+@import '../var';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+$font-family: 'Abril Fatface';
+
+.blurtext {
+  @include inner;
+  font-family: $font-family, cursive;
+  .box {
+    flex-direction: column;
+    p {
+      font-size: 8rem;
+      line-height: 110%;
+      letter-spacing: 8px;
+      color: var(--color-black-2);
+      span {
+        color: transparent;
+        text-shadow: 0 0 16px rgba(0,0,0,0.5);
+        }
+    }
+  }
+}

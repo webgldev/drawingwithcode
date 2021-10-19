@@ -1,0 +1,41 @@
+@import '../var';
+
+$shadow-color: #444;
+
+.textgradation {
+  @include inner;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  .box {
+    z-index: -100;
+    overflow: hidden;
+    background-color: var(--color-black-2);
+    .gradient {
+      counter-reset: rainbow;
+      position: relative; top: -100px;
+      display: block; padding: 0; margin: 0;
+
+      &_text {
+        color: var(--color-white);
+        transform: rotateX(210deg) rotateZ(145deg) rotateY(170deg);
+        text-shadow: -1px -1px 0 $shadow-color, 1px -1px 0 $shadow-color, -1px 1px 0 $shadow-color, 1px 1px 0 $shadow-color, 4px 4px 0 rgba(0, 0, 0, .2);
+
+        &:not(:first-child) { position: absolute; line-height: 100%; }
+        @for $i from 1 through 30 {
+          &:nth-child(#{$i}) {
+            width: 100%;
+            z-index: -#{$i * 1};
+            top: calc(18px * #{$i});
+            opacity: calc(.6 / #{$i * .3});
+          }
+          &:nth-child(8) { left: -20px; color: #ffcc3b; opacity: .3; }
+          &:nth-child(18) { left: 20px; color: #ff8600; opacity: .2; }
+        }
+      }
+    }
+    
+  }
+}
+

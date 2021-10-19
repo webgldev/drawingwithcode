@@ -1,0 +1,13 @@
+@import '../var';
+
+.spelling {
+  @include inner;
+  .box {
+    svg {
+      path {
+        font-size: 3rem;
+        filter: url(#erode);
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@import '../var';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+$font-family: 'Abril Fatface';
+
+.mixblend {
+  @include inner;
+  .box {
+    background-color: #eeedf0;
+    flex-direction: column;
+    overflow: hidden;
+    p {
+      font-family: $font-family, cursive;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 4rem;
+      font-size: 3.5rem;
+      color: var(--color-black-1);
+      &:first-of-type::before {
+        content: ''; width: 100px; height: 1px;
+        position: absolute; top: 28%; left: 42%;
+        background-color: var(--color-black-2);
+      }
+      span {
+        background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+        background-size: cover;
+        mix-blend-mode: luminosity;
+        background-clip: text; // check the support browser -> https://developer.mozilla.org/ko/docs/Web/CSS/background-clip
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    }
+
+    // Common
+    .rect {
+      position: absolute;
+      top: 50%; left: 50%;
+      visibility: inherit;
+    }
+    
+    // White color
+    .shape1 {
+      width: 900px; height: 210px;
+      background-color: var(--color-white);
+      mix-blend-mode: soft-light;
+      opacity: 0.7;
+      transform: translate(-50%, -60%) rotate(-50deg) scaleY(1);
+    }
+    
+    // Yellow color
+    .shape2 {
+      top: 50%; left: 0;
+      width: 130px; height: 430px;
+      background-color: #d6db9d;
+      mix-blend-mode: hard-light;
+      filter: blur(5px);
+      transform: translate(190%, -35%) rotate(70deg) scaleY(2);
+    }
+    
+  }
+}
