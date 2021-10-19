@@ -9,5 +9,3 @@
 - [Before repo](https://github.com/fe-w/drawingwithcode/tree/before)
 
 > Enjoy every moment! 😝
-> 
-> If these project were useful, please star★ this repo! :)
