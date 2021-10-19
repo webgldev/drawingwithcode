@@ -1,0 +1,15 @@
+@import 'var';
+
+.sr {@include screenReader;}
+
+.cardlayout {
+  @include inner;
+  .inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 100px 0;
+  }
+}
+
