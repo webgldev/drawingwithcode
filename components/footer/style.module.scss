@@ -1,0 +1,32 @@
+@import '../../styles/var';
+
+.sr {@include screenReader;}
+
+.footer {
+  @include center;
+  flex-direction: column;
+  background-color: var(--color-white);
+  padding: 16px 0;
+  position: relative;
+  a {
+    display: flex;
+    align-items: center;
+    padding: 16px; padding-top: 0;
+    color: var(--color-gray-3);
+    p {padding-right: 10px;}
+  }
+  .img {
+    position: absolute; width: 200px; height: 50px;
+    bottom: -30px;
+  }
+  .top {
+    position: fixed; right: 30px; bottom: 30px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.30);
+    color: var(--color-white);
+    background-color: var(--color-black-1);
+    border-radius: 50%;
+    border: 1px solid var(--color-black-1);
+    padding: 10px;
+    font-size: var(--font-size-13);
+  }
+}
