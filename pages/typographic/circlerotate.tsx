@@ -17,9 +17,9 @@ export default function Circlerotate() {
         <p>2021</p>
         <div className={st.circle}></div>
         <svg width="500" height="500" viewBox="0 0 205 206" fill="none">
-          <path id='textMove' className={st.path} d="M103.55 0.5C28.2 0.5 0.5 66.27 0.5 102.53C0.5 142.77 29.72 204.53 102.5 204.53C173.18 204.53 204.5 141.74 204.5 102.53C204.5 60.79 171.14 0.53 104.4 0.53" stroke="#231815" stroke-miterlimit="10"/>
+          <path id='textMove' className={st.path} d="M103.55 0.5C28.2 0.5 0.5 66.27 0.5 102.53C0.5 142.77 29.72 204.53 102.5 204.53C173.18 204.53 204.5 141.74 204.5 102.53C204.5 60.79 171.14 0.53 104.4 0.53" stroke="#231815" strokeMiterlimit="10"/>
           <defs>
-            <path id='textMove' className={st.path} d="M103.55 0.5C28.2 0.5 0.5 66.27 0.5 102.53C0.5 142.77 29.72 204.53 102.5 204.53C173.18 204.53 204.5 141.74 204.5 102.53C204.5 60.79 171.14 0.53 104.4 0.53" stroke="#231815" stroke-miterlimit="10"/>
+            <path id='textMove' className={st.path} d="M103.55 0.5C28.2 0.5 0.5 66.27 0.5 102.53C0.5 142.77 29.72 204.53 102.5 204.53C173.18 204.53 204.5 141.74 204.5 102.53C204.5 60.79 171.14 0.53 104.4 0.53" stroke="#231815" strokeMiterlimit="10"/>
           </defs>
           <text>
             <textPath href="#textMove">

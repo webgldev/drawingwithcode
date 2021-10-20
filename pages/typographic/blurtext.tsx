@@ -12,7 +12,7 @@ export default function Blurtext() {
     <Header />
     <section className={st.blurtext}>
       <div className={st.box}>
-        <p>Do<span>n't</span></p>
+        <p>Do<span>n&apos;t</span></p>
         <p><span>qu</span>it.</p>
       </div>
     </section>
