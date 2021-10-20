@@ -26,9 +26,9 @@ export default function Main() {
               <span className={st.sr}>UI Card image</span>
             </a>
           </Link>
-          <Link href="/typographic">
+          <Link href="/typography">
             <a>
-              <p>TYPOGRAPHIC</p>
+              <p>TYPOGRAPHY</p>
               <Image src="/images/main/card_typo.png" alt="card image" layout="fill" />
               <span className={st.sr}>Typo Card image</span>
             </a>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import st from '@styles/typographic/stairs.module.scss'
+import st from '@styles/typography/stairs.module.scss'
 import Page from '@components/seopage'
 import Header from '@components/header'
 import Footer from '@components/footer'

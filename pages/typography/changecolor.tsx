@@ -1,4 +1,4 @@
-import st from '@styles/typographic/changecolor.module.scss'
+import st from '@styles/typography/changecolor.module.scss'
 import Page from '@components/seopage'
 import Header from '@components/header'
 import Footer from '@components/footer'

@@ -1,4 +1,4 @@
-import st from '@styles/typographic/pantone2021.module.scss'
+import st from '@styles/typography/pantone2021.module.scss'
 import Page from '@components/seopage'
 import Header from '@components/header'
 import Footer from '@components/footer'

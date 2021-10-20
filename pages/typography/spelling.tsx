@@ -1,4 +1,4 @@
-import st from '@styles/typographic/spelling.module.scss'
+import st from '@styles/typography/spelling.module.scss'
 import Page from '@components/seopage'
 import Header from '@components/header'
 import Footer from '@components/footer'
