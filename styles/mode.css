@@ -1,0 +1,10 @@
+.dark {background: #333; color: #fff;}
+.dark a, .dark span, .dark button {color: #ccc;}
+.dark main section .title {color: #555;}
+.dark main section div .tooltip,
+.dark main section div button,
+.dark main section div a {background: #555;}
+.dark .modal-content button {background-color: #555;}
+.dark main section div img {border: 1px solid #333;}
+.dark .modal-content {background-color: #000000;}
+.dark #menu {background: #555;}

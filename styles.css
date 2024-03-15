@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+@import './styles/default.css';
+@import './styles/nav.css';
+@import './styles/footer.css';
+@import './styles/page.css';
+@import './styles/mode.css';
+@import './styles/responsive.css';

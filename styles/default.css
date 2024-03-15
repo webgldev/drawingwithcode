@@ -1,0 +1,10 @@
+* {margin: 0;padding: 0; font-family: 'JetBrains Mono', monospace;}
+body {width: 100%; height: 100%; min-height: 100vh;}
+body {display: flex; flex-direction: column; justify-content: flex-start; align-items: center;}
+a {text-decoration: none;}
+a, button, span, p {display: inline-flex; line-height: 100%; gap: 8px;}
+a, button {cursor: pointer; line-height: 100%; font-size: 1rem; color: #000;}
+button {background: none; border: none;}
+button:hover, a:hover {opacity: .5;}
+li {list-style: none;}
+nav, footer {box-sizing: border-box;}

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 860px) {
+  nav {height: 80px;}
+  #menuToggle {top: 0px; left: 20px;}
+  #menu {margin: -100px 0 0 -20px;}
+  main section .title {font-size: 2rem;}
+  main section {justify-content: center; max-width: unset; min-width: unset;}
+  footer {padding-top: 80px;}
+  .modal {align-items: center;}
+}
+
+@media only screen and (max-width: 281px) {
+  main section div {width: 260px;}
+  main section div img {height: 260px;}
+}
