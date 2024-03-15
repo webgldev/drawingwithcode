@@ -1,4 +1,4 @@
-const GITHUB_REPOSITORY = '/basic';
+const GITHUB_REPOSITORY = '/drawingwithcode';
 
 export function updateLinkHref(link, originalHref, location) {
   const basePath = location.href.includes(GITHUB_REPOSITORY) ? GITHUB_REPOSITORY : '';
