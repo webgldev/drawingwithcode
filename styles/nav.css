@@ -1,6 +1,6 @@
 nav {width: 100%; display: flex; justify-content: space-between; align-items: center;}
-nav ul {display: flex; gap: 8px; flex-direction: column;}
-nav ul li {display: inline-grid; place-items: center;}
+nav ul {position: absolute; margin: -100px 0 0 -50px; padding: 50px; padding-top: 125px; background: #ededed; list-style-type: none; -webkit-font-smoothing: antialiased; transform-origin: 0% 0%; transform: translate(-100%, 0); transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); display: flex; flex-direction: column; align-items: center;}
+nav ul li {padding: 10px 0; font-size: 22px;display: inline-grid;}
 nav ul li a {padding: 6px; border-radius: 8px; text-align: center;}
 nav ul li .drawing {color: #ff9700;}
 nav ul li .code    {color: #b9ce00;}
@@ -19,6 +19,3 @@ nav ul li .code    {color: #b9ce00;}
 #menuToggle input:checked ~ span {opacity: 1; transform: rotate(45deg) translate(-2px, -1px); background: #232323; }
 #menuToggle input:checked ~ span:nth-last-child(3) {opacity: 0; transform: rotate(0deg) scale(0.2, 0.2); }
 #menuToggle input:checked ~ ul {transform: none;}
-
-#menu {position: absolute; margin: -100px 0 0 -50px; padding: 50px; padding-top: 125px; background: #ededed; list-style-type: none; -webkit-font-smoothing: antialiased; transform-origin: 0% 0%; transform: translate(-100%, 0); transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);}
-#menu li {padding: 10px 0; font-size: 22px;}
