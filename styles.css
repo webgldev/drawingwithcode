@@ -6,4 +6,6 @@
 @import './styles/footer.css';
 @import './styles/page.css';
 @import './styles/mode.css';
+@import './styles/modal.css';
+@import './styles/tooltip.css';
 @import './styles/responsive.css';
